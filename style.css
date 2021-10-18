@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+
+body{
+    background: url('images/book.jpg');
+}
+
 .heading{
     text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'IM Fell English SC', serif;
 }
 textarea {
     width: 80%;
-    height: 10vh;
+    height: 15vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
@@ -16,4 +26,50 @@ textarea {
     margin: 1rem;
     background-color: white;
     padding: 1rem;
+}
+#txt-input{
+    max-width: 400px;
+    margin: auto;
+}
+#output{
+    max-width: 400px;
+    margin: auto;
+}
+.box1{
+    margin-top: 3rem;
+}
+.output-container{
+    margin-top: 3rem;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+#btn-translate{
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+.button{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.facts{
+
+}
+.owner{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+}
+.owner-detail{
+    color: white;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.owner-detail a{
+    color: white;
+    text-decoration: none;
 }
